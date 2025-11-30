@@ -1,0 +1,173 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Admin User",
+      "email": "admin@example.com",
+      "password": "admin123",
+      "role": "admin",
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "2",
+      "name": "Sarah Chen",
+      "email": "sarah@example.com",
+      "password": "demo123",
+      "role": "mentor",
+      "bio": "Senior Software Engineer with 8+ years experience in React and Node.js",
+      "skills": [
+        "React",
+        "Node.js",
+        "TypeScript",
+        "System Design"
+      ],
+      "experience": "8+ years",
+      "availability": [
+        "Monday 9-11 AM",
+        "Wednesday 2-4 PM",
+        "Friday 10-12 PM"
+      ],
+      "rating": 4.8,
+      "totalSessions": 42,
+      "createdAt": "2024-01-15T10:00:00Z"
+    },
+    {
+      "id": "3",
+      "name": "Marcus Johnson",
+      "email": "marcus@example.com",
+      "password": "demo123",
+      "role": "mentor",
+      "bio": "Product Manager turned startup founder. Loves helping others navigate career transitions.",
+      "skills": [
+        "Product Management",
+        "Leadership",
+        "Strategy",
+        "Startups"
+      ],
+      "experience": "10+ years",
+      "availability": [
+        "Tuesday 1-3 PM",
+        "Thursday 10-12 PM",
+        "Saturday 9-11 AM"
+      ],
+      "rating": 4.9,
+      "totalSessions": 67,
+      "createdAt": "2024-01-10T14:30:00Z"
+    },
+    {
+      "id": "4",
+      "name": "Alex Rivera",
+      "email": "alex@example.com",
+      "password": "demo123",
+      "role": "mentee",
+      "bio": "Junior developer looking to advance in React development",
+      "skills": [
+        "JavaScript",
+        "HTML/CSS",
+        "Git"
+      ],
+      "goals": [
+        "Master React",
+        "Land senior role",
+        "Build portfolio"
+      ],
+      "availability": [
+        "Evenings",
+        "Weekends"
+      ],
+      "createdAt": "2024-01-20T09:15:00Z"
+    },
+    {
+      "name": "student12345678",
+      "email": "comel58566@cexch.com",
+      "password": "student1234",
+      "role": "mentee",
+      "bio": "student\nxys",
+      "goals": [
+        "b tech cse"
+      ],
+      "availability": [
+        "all"
+      ],
+      "id": "1764462329798",
+      "createdAt": "2025-11-30T00:25:29.798Z",
+      "totalSessions": 0,
+      "rating": 0
+    },
+    {
+      "name": "teacher biology",
+      "email": "comel58566@cexch.com",
+      "password": "teacher123",
+      "role": "mentor",
+      "bio": "cse lecture",
+      "skills": [
+        "all"
+      ],
+      "experience": "10+ years",
+      "availability": [
+        "Weekdays 9-5",
+        "Evenings",
+        "Weekends"
+      ],
+      "id": "1764464940788",
+      "createdAt": "2025-11-30T01:09:00.788Z",
+      "totalSessions": 0,
+      "rating": 0
+    }
+  ],
+  "sessions": [
+    {
+      "id": "1",
+      "mentorId": "2",
+      "menteeId": "4",
+      "title": "React Best Practices",
+      "description": "Discussion on React hooks and state management",
+      "dateTime": "2024-01-25T10:00:00Z",
+      "duration": 60,
+      "status": "scheduled",
+      "createdAt": "2024-01-18T14:20:00Z"
+    },
+    {
+      "id": "2",
+      "mentorId": "3",
+      "menteeId": "4",
+      "title": "Career Planning Session",
+      "description": "Roadmap for career advancement",
+      "dateTime": "2024-01-20T14:00:00Z",
+      "duration": 45,
+      "status": "completed",
+      "rating": 5,
+      "feedback": "Excellent insights on career progression!",
+      "createdAt": "2024-01-10T11:30:00Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": "1",
+      "senderId": "2",
+      "receiverId": "4",
+      "content": "Hi Alex! Looking forward to our React session tomorrow.",
+      "timestamp": "2024-01-24T15:30:00Z",
+      "read": false
+    },
+    {
+      "id": "2",
+      "senderId": "4",
+      "receiverId": "2",
+      "content": "Thanks Sarah! I have some specific questions about useEffect.",
+      "timestamp": "2024-01-24T16:00:00Z",
+      "read": true
+    }
+  ],
+  "progress": [
+    {
+      "id": "1",
+      "userId": "4",
+      "skill": "React",
+      "currentLevel": 3,
+      "targetLevel": 8,
+      "progress": 37,
+      "lastUpdated": "2024-01-20T00:00:00Z"
+    }
+  ]
+}
